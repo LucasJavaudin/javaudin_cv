@@ -1,0 +1,76 @@
+personalized_incentives1:
+  type: article
+  title: "Large-scale allocation of personalized incentives"
+  author:
+    - name: "Javaudin, L."
+    - name: "Araldo, A."
+    - name: "de Palma, A."
+  date: 2022
+  page-range: 4151-4156
+  parent:
+    type: proceedings
+    title: "2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)"
+    organization: "IEEE"
+
+personalized_incentives2:
+  type: article
+  title: "Personalised incentives with constrained regulator's budget"
+  author:
+    - name: "Javaudin, L."
+    - name: "Araldo, A."
+    - name: "de Palma, A."
+  date: 2023
+  page-range: 1-43
+  parent:
+    type: periodical
+    title: "Transportmetrica A: Transport Science"
+    publisher: "Taylor & Francis"
+
+ridesharing_stokkink:
+  type: article
+  title: "Ride-sharing with inflexible drivers in the Paris metropolitan area"
+  author:
+    - name: "de Palma, A."
+    - name: "Javaudin, L."
+    - name: "Stokkink, P."
+    - name: "Tarpin-Pitre, L."
+  date: 2024
+  page-range: 963-986
+  parent:
+    type: periodical
+    title: "Transportation"
+    volume: 51
+    number: 3
+    publisher: "Springer"
+
+metro2_wp:
+  type: report
+  title: "METROPOLIS2: Bridging Theory and Simulation in Agent-Based Transport Modeling"
+  author:
+    - name: "Javaudin, L."
+    - name: "de Palma, A."
+  date: 2024
+  genre: "Working paper"
+  publisher: "THEMA, CY Cergy Paris Université"
+  url: "https://thema.u-cergy.fr/IMG/pdf/2024-03.pdf"
+
+lez_wp:
+  type: report
+  title: "Impact of Low Emission Zones on Spatial and Economic Inequalities using a Dynamic Transport Simulator"
+  author:
+    - name: "Javaudin, L."
+    - name: "de Palma, A."
+  date: 2024
+  genre: "Unpublished"
+
+ridesharing_samarth:
+  type: report
+  title: "Socially optimal ride-sharing with dynamic congestion and departure-time and mode choices"
+  author:
+    - name: "Ghoslya, S."
+    - name: "Javaudin, L."
+    - name: "de Palma, A."
+    - name: "Delle Site, P."
+  date: 2025
+  genre: "Unpublished"
+
