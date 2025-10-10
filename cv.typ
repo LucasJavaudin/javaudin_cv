@@ -12,7 +12,7 @@
 #info(
   name: "Lucas Javaudin",
   subtitle: "Post doctorate researcher",
-  location: "THEMA, CY Cergy Paris Université",
+  location: "LVMT, ENPC, Institut Polytechnique de Paris, Univ Gustave Eiffel",
   // phone: "+33 6 73 26 19 12",
   email: "lucas@lucasjavaudin.com",
   website: "lucasjavaudin.com",
@@ -23,7 +23,7 @@
 
 = Research interest
 
-*Primary field:* Transportation economics, Transportation engineering
+*Primary field:* Transport modeling, Transportation economics
 
 *Secondary field:* Urban economics, Environmental economics
 
@@ -70,6 +70,12 @@
 = Professional Experience
 
 #experience(
+  title: "Post doctorate researcher",
+  institution: "LVMT, ENPC, Institut Polytechnique de Paris, Univ Gustave Eiffel",
+  date: "2025",
+)[]
+
+#experience(
   title: "Research internship in data science and cycling mobilities",
   institution: "IFPEN",
   date: "2019",
@@ -92,6 +98,20 @@
   institution: "CREST, ENS Paris-Saclay",
   date: "2017",
 )[]
+
+= Projets
+
+#project(
+  name: "METROPOLIS2",
+  description: "Agent-based transport simulator, built in Rust",
+  url: "https://metropolis2.org",
+)
+
+#project(
+  name: "MobiSurvStd",
+  description: "A Python library to standardize mobility surveys",
+  url: "https://mobisurvstd.github.io/MobiSurvStd/",
+)
 
 = Publications
 
@@ -119,11 +139,11 @@
 
 == Manuscripts in Preparation
 
+#cite(<ridesharing_samarth>, form: "full")
+
 #cite(<metro2_wp>, form: "full")
 
 #cite(<lez_wp>, form: "full")
-
-#cite(<ridesharing_samarth>, form: "full")
 
 // == Web-Based Publications
 
@@ -136,6 +156,14 @@
 = Conference Activity
 
 == Presentations at Conferences
+
+#conference(
+  title: "Analyzing the determinants of intermodality trips with an aggregation of mobility surveys",
+  conference: "AFET Third Annual Conference",
+  location: "Lyon, FR",
+  date: "November 19–20",
+  year: "2025",
+)
 
 #conference(
   title: "Impact of Low Emission Zones on Spatial and Economic Inequalities using a Dynamic Transport Simulator",
@@ -185,6 +213,8 @@
   year: "2023",
 )
 
+#pagebreak()
+
 #conference(
   title: "Large-scale allocation of personalized incentives",
   conference: "IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)",
@@ -205,8 +235,16 @@
 == Presentations at Workshops
 
 #conference(
+  title: "MobiSurvStd: A tool to standardize French mobility survey datasets",
+  conference: "Eqasim Workshop",
+  location: "IRT SystemX, Palaiseau, FR",
+  date: "December 8",
+  year: "2025",
+)
+
+#conference(
   title: "METROPOLIS2 and Synthetic Populations",
-  conference: "Synthetic Population Workshop",
+  conference: "Eqasim Workshop",
   location: "IRT SystemX, Gif-sur-Yvette, FR",
   date: "November 8",
   year: "2024",
@@ -225,8 +263,16 @@
 == Invited Talks
 
 #conference(
+  title: "Ride-sharing, congestion, departure-time and mode choices: A social optimum perspective",
+  conference: "LAET external seminar",
+  location: "Lyon, FR",
+  date: "September 25",
+  year: "2025",
+)
+
+#conference(
   title: "Impact of Low Emission Zones on Spatial and Economic Inequalities using a Dynamic Transport Simulator",
-  conference: "LVMT Internal Seminar",
+  conference: "LVMT seminar",
   location: "Champs-sur-Marne, FR",
   date: "February 14",
   year: "2025",
@@ -286,7 +332,7 @@ Rust
 
 QGIS
 
-PostgreSQL + PostGIS
+PostgreSQL + PostGIS, DuckDB
 
 Linux system administration
 
@@ -299,5 +345,6 @@ Linux system administration
 = References
 
 #reference(name: "André de Palma", email: "andre.de-palma@cyu.fr", function: "Professor Emeritus, THEMA, CY Cergy Paris Université")
-#reference(name: "Nathalie Picard", email: "picardn@unistra.fr", function: "Professor, BETA, University of Strasbourg")
+// #reference(name: "Nathalie Picard", email: "picardn@unistra.fr", function: "Professor, BETA, University of Strasbourg")
 #reference(name: "Robin Lindsey", email: "robin.lindsey@sauder.ubc.ca", function: "Professor Emeritus, Sauder School of Business, University of British Columbia")
+#reference(name: "Nicolas Coulombel", email: "nicolas.coulombel@enpc.fr", function: "Researcher, LVMT, ENPC, Institut Polytechnique de Paris, Univ Gustave Eiffel")

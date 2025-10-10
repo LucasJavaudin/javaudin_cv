@@ -135,6 +135,15 @@
   v(0.4em)
 }
 
+#let project(name: "", description: "", url: "") = {
+  set par(spacing: 0.6em)
+  body_text(weight: "bold", name + ", ")
+  body_text(description)
+  parbreak()
+  body_text(link(url)[#url])
+  v(0.4em)
+}
+
 #let conference(title: "", conference: "", location: "", date: "", year: "") = {
   set par(spacing: 0.6em)
   grid(
@@ -186,7 +195,7 @@
 #let reference(name: "", email: "", function: "") = {
   set par(spacing: 0.6em)
   grid(
-    columns: (9em, 1fr),
+    columns: (11em, 1fr),
     body_text(name),
     {
       body_text(function, style: "italic")

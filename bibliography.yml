@@ -65,12 +65,13 @@ lez_wp:
 
 ridesharing_samarth:
   type: report
-  title: "Socially optimal ride-sharing with dynamic congestion and departure-time and mode choices"
+  title: "Ride-sharing, congestion, departure-time and mode choices: A social optimum perspective"
   author:
     - name: "Ghoslya, S."
     - name: "Javaudin, L."
     - name: "de Palma, A."
     - name: "Delle Site, P."
   date: 2025
-  genre: "Unpublished"
+  genre: "Working paper"
+  url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5465467"
 

@@ -12,7 +12,7 @@
 #info(
   name: "Lucas Javaudin",
   subtitle: "Chercheur postdoc",
-  location: "THEMA, CY Cergy Paris Université",
+  location: "LVMT, ENPC, Institut Polytechnique de Paris, Univ Gustave Eiffel",
   // phone: "+33 6 73 26 19 12",
   email: "lucas@lucasjavaudin.com",
   website: "lucasjavaudin.com",
@@ -23,7 +23,7 @@
 
 = Centres d'intérêt
 
-*Domaines principaux:* Économie des transports, Ingénierie des transports
+*Domaines principaux:* Modélisation transport, Économie des transports
 
 *Domaines secondaires:* Économie urbaine, Économie de l'environnement
 
@@ -67,6 +67,12 @@
 = Expériences professionnelles
 
 #experience(
+  title: "Postdoctorat",
+  institution: "LVMT, ENPC, Institut Polytechnique de Paris, Univ Gustave Eiffel",
+  date: "2025",
+)[]
+
+#experience(
   title: "Stage de recherche en data science et mobilités cyclistes",
   institution: "IFP Énergies Nouvelles",
   date: "2019",
@@ -89,6 +95,20 @@
   institution: "CREST, ENS Paris-Saclay",
   date: "2017",
 )[]
+
+= Projets
+
+#project(
+  name: "METROPOLIS2",
+  description: "Simulateur de transport multi-agents, développé en Rust",
+  url: "https://metropolis2.org",
+)
+
+#project(
+  name: "MobiSurvStd",
+  description: "Librairie Python pour standardiser les enquêtes de mobilité",
+  url: "https://mobisurvstd.github.io/MobiSurvStd/",
+)
 
 = Publications
 
@@ -116,11 +136,11 @@
 
 == Travaux en cours
 
+#cite(<ridesharing_samarth>, form: "full")
+
 #cite(<metro2_wp>, form: "full")
 
 #cite(<lez_wp>, form: "full")
-
-#cite(<ridesharing_samarth>, form: "full")
 
 // == Web-Based Publications
 
@@ -133,6 +153,14 @@
 = Conférences
 
 == Présentations en conférences
+
+#conference(
+  title: "Analyse des déterminants de l'intermodalité à partir d'une agrégation d'enquêtes de mobilité",
+  conference: "Troisième conférence annuelle de l'AFET",
+  location: "Lyon, FR",
+  date: "19–20 Novembre",
+  year: "2025",
+)
 
 #conference(
   title: "Impact of Low Emission Zones on Spatial and Economic Inequalities using a Dynamic Transport Simulator",
@@ -182,6 +210,8 @@
   year: "2023",
 )
 
+#pagebreak()
+
 #conference(
   title: "Large-scale allocation of personalized incentives",
   conference: "IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)",
@@ -202,8 +232,16 @@
 == Présentations en Workshops
 
 #conference(
+  title: "MobiSurvStd: A tool to standardize French mobility survey datasets",
+  conference: "Eqasim Workshop",
+  location: "IRT SystemX, Palaiseau, FR",
+  date: "8 Décembre",
+  year: "2025",
+)
+
+#conference(
   title: "METROPOLIS2 and Synthetic Populations",
-  conference: "Synthetic Population Workshop",
+  conference: "Eqasim Workshop",
   location: "IRT SystemX, Gif-sur-Yvette, FR",
   date: "8 Novembre",
   year: "2024",
@@ -222,8 +260,16 @@
 == Séminaires
 
 #conference(
+  title: "Ride-sharing, congestion, departure-time and mode choices: A social optimum perspective",
+  conference: "Séminaire externe du LAET",
+  location: "Lyon, FR",
+  date: "25 Septembre",
+  year: "2025",
+)
+
+#conference(
   title: "Impact of Low Emission Zones on Spatial and Economic Inequalities using a Dynamic Transport Simulator",
-  conference: "Séminaire interne du LVMT",
+  conference: "Séminaire du LVMT",
   location: "Champs-sur-Marne, FR",
   date: "14 Février",
   year: "2025",
@@ -283,7 +329,7 @@ Rust
 
 QGIS
 
-PostgreSQL + PostGIS
+PostgreSQL + PostGIS, DuckDB
 
 Administration de systèmes Linux
 
@@ -296,5 +342,6 @@ Administration de systèmes Linux
 = References
 
 #reference(name: "André de Palma", email: "andre.de-palma@cyu.fr", function: "Professeur Émérite, THEMA, CY Cergy Paris Université")
-#reference(name: "Nathalie Picard", email: "picardn@unistra.fr", function: "Professeur, BETA, University of Strasbourg")
+// #reference(name: "Nathalie Picard", email: "picardn@unistra.fr", function: "Professeur, BETA, University of Strasbourg")
 #reference(name: "Robin Lindsey", email: "robin.lindsey@sauder.ubc.ca", function: "Professeur Émérite, Sauder School of Business, University of British Columbia")
+#reference(name: "Nicolas Coulombel", email: "nicolas.coulombel@enpc.fr", function: "Chercheur, LVMT, ENPC, Institut Polytechnique de Paris, Univ Gustave Eiffel")
