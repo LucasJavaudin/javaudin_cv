@@ -314,13 +314,13 @@
 
 == Peer Review
 
-#peer_review(journal: "Transportation Research Part C")
-
-#peer_review(journal: "Journal of Environmental Planning and Management")
+Transportation Research Part C, Journal of Environmental Planning and Management
 
 == Other
 
 Organization of the AFFINITE Seminar (41 sessions in 2022-2025)
+
+Thesis jury member (Rayane Al Amir Dache, 2025)
 
 Consulting for _Société des Grand Projets_
 

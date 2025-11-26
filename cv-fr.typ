@@ -311,15 +311,15 @@
 
 == Rapports de référés
 
-#peer_review(journal: "Transportation Research Part C")
-
-#peer_review(journal: "Journal of Environmental Planning and Management")
+Transportation Research Part C, Journal of Environmental Planning and Management
 
 == Autres
 
 Organisation du séminaire AFFINITE (41 sessions en 2022-2025)
 
-Activités de conseil pour la _Société des Grand Projets_
+Jury de thèse (Rayane Al Amir Dache, 2025)
+
+Activités de conseil pour la _Société des Grand Projets_ (2024)
 
 = Compétences professionnelles
 
