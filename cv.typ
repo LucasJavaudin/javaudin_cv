@@ -23,7 +23,7 @@
 
 = Research interest
 
-*Primary field:* Transport modeling, Transportation economics
+*Primary field:* Transportation economics, Transport modeling
 
 *Secondary field:* Urban economics, Environmental economics
 
@@ -49,7 +49,7 @@
   location: "Palaiseau, FR",
   date: "2016 – 2020",
 )[
-  _Normalien_\
+  _Normalien / Ingénieur ENSAE_\
   Specialization: Econometrics / Data Science and Social Sciences
 ]
 
@@ -103,13 +103,13 @@
 
 #project(
   name: "METROPOLIS2",
-  description: "Agent-based transport simulator, built in Rust",
+  description: "Open-source agent-based transport simulator, built in Rust",
   url: "https://metropolis2.org",
 )
 
 #project(
   name: "MobiSurvStd",
-  description: "A Python library to standardize mobility surveys",
+  description: "Open-source Python library to standardize mobility surveys",
   url: "https://mobisurvstd.github.io/MobiSurvStd/",
 )
 
@@ -138,6 +138,8 @@
 // == Manuscripts in Submission
 
 == Manuscripts in Preparation
+
+#cite(<intermodality_analysis>, form: "full")
 
 #cite(<ridesharing_samarth>, form: "full")
 
@@ -212,8 +214,6 @@
   date: "June 14–16",
   year: "2023",
 )
-
-#pagebreak()
 
 #conference(
   title: "Large-scale allocation of personalized incentives",

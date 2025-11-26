@@ -72,6 +72,15 @@ ridesharing_samarth:
     - name: "de Palma, A."
     - name: "Delle Site, P."
   date: 2025
-  genre: "Working paper"
+  genre: "Working paper, under review"
   url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5465467"
+
+intermodality_analysis:
+  type: report
+  title: "Aggregating Mobility Surveys to Understand Intermodality: Evidence from 78 French Surveys"
+  author:
+    - name: "Javaudin, L."
+  date: 2025
+  genre: "Working paper"
+  url: "https://lucasjavaudin.com/research/intermodality-analysis/javaudin_intermodality.pdf"
 

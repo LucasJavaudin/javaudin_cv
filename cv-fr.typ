@@ -23,7 +23,7 @@
 
 = Centres d'intérêt
 
-*Domaines principaux:* Modélisation transport, Économie des transports
+*Domaines principaux:* Économie des transports, Modélisation transport
 
 *Domaines secondaires:* Économie urbaine, Économie de l'environnement
 
@@ -46,7 +46,7 @@
   location: "Palaiseau, FR",
   date: "2016 – 2020",
 )[
-  _Normalien_\
+  _Élève normalien / Ingénieur de l'ENSAE_\
   Spécialisation: Économétrie / Data Science et Sciences Sociales
 ]
 
@@ -100,13 +100,13 @@
 
 #project(
   name: "METROPOLIS2",
-  description: "Simulateur de transport multi-agents, développé en Rust",
+  description: "Simulateur de transport multi-agents open-source, développé en Rust",
   url: "https://metropolis2.org",
 )
 
 #project(
   name: "MobiSurvStd",
-  description: "Librairie Python pour standardiser les enquêtes de mobilité",
+  description: "Librairie Python open-source pour standardiser les enquêtes de mobilité",
   url: "https://mobisurvstd.github.io/MobiSurvStd/",
 )
 
@@ -135,6 +135,8 @@
 // == Manuscripts in Submission
 
 == Travaux en cours
+
+#cite(<intermodality_analysis>, form: "full")
 
 #cite(<ridesharing_samarth>, form: "full")
 
@@ -209,8 +211,6 @@
   date: "14–16 Juin",
   year: "2023",
 )
-
-#pagebreak()
 
 #conference(
   title: "Large-scale allocation of personalized incentives",
